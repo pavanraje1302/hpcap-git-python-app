@@ -15,9 +15,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-    env:
-      USER: ${{ secrets.USER }}
-      PASS: ${{ secrets.PASS }}
+      env:
+        USER: ${{ secrets.USER }}
+        PASS: ${{ secrets.PASS }}
       run: | 
         docker build . --file Dockerfile --tag pavanraje/github:$(date +%s)
         docker login -u $USER -p $PASS
