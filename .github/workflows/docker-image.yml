@@ -19,6 +19,6 @@ jobs:
         USER: ${{ secrets.USER }}
         PASS: ${{ secrets.PASS }}
       run: | 
-        docker build . --file Dockerfile --tag pavanraje/github:latest
+        docker build . --file Dockerfile --tag amarjeet4221/github:latest
         docker login -u $USER -p $PASS
-        docker push pavanraje/github:latest
+        docker push amarjeet4221/github:latest
