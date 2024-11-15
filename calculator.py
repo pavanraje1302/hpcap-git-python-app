@@ -17,7 +17,9 @@ def divide(x, y):
 
 def main():
     print("Welcome to the Python Calculator!")
-    
+    print("And Thank you to use our app")
+    print("By _____Shivraj Waghmare")
+    print("To ______The User")
     while True:
         print("\nSelect operation:")
         print("1. Add")
