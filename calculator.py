@@ -22,11 +22,11 @@ def main():
     print("To ______The User")
     while True:
         print("\nSelect operation:")
-        print("1. Add")
-        print("2. Subtract")
-        print("3. Multiply")
-        print("4. Divide")
-        print("5. Exit")
+        print("1. ADD")
+        print("2. SUBSTRACT")
+        print("3. MULTIPLY")
+        print("4. DIVIDE")
+        print("5. EXIT")
         
         # Take user input
         choice = input("Enter choice (1/2/3/4/5): ")
