@@ -18,7 +18,7 @@ jobs:
     env:
       USER: ${{ secrets.USER }}
       PASS: ${{ secrets.PASS }}
-      run:| 
+      run: | 
         docker build . --file Dockerfile --tag pavanraje/github:$(date +%s)
         docker login -u $USER -p $PASS
         docker push pavanraje/github:$(date +%s)
