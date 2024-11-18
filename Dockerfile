@@ -1,7 +1,7 @@
 # Use the official Python base image
 FROM python:3.9-slim
 
-MAINTAINER JOSHAN <joshanwadekar994@gmailcom>
+MAINTAINER Shivraj <shivrajwaghmare1302@gmail.com>
 # Copy the Python application into the container
 COPY .  /app/calculator.py
 
